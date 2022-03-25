@@ -1,0 +1,474 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.second{
+  display:flex;
+  flex-direction: column;
+  margin-top: -50px;
+  align-items: center;
+  }
+  .costam{
+    width: 100%;
+  }
+  .shadow-sm{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerA1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fiftyFifty{
+    width: 50%;
+  }
+  .footer{
+    background-color: rgba(46, 10, 100, 0.818);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 34%;
+  }
+  .loginWindow{
+    height: 66%;
+    width: 100%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .inputs{
+    width: 250px;
+    justify-content: left;
+    align-items: flex-end;
+  }
+  .dot{
+    position: relative;
+    left: 260px;
+    bottom: 40px;
+    display: none;
+  }
+  .myBTN{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display:flex;
+    color: white;
+    background-color: rgba(66, 16, 143, 0.818);
+    justify-content: center;
+   align-items: flex-end;
+  }
+  .margin{
+    margin: 10px 0 20px 0;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    gap: 20px;
+  }
+  .underlineLogin{
+    text-decoration: underline;
+    font-size: small;
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  .underlineFooter{
+    text-decoration: underline;
+    font-size: small;
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .neighbor{
+    margin-left: 30px;
+  }
+  .bold{
+    font-weight: bold ;
+  }
+  .copy{
+    font-weight: 100;
+    font-size: small;
+  }
+  .btn-primary{
+    background-color: rgba(66, 16, 143, 0.818)!important;
+    border-color: rgba(66, 16, 143, 0.818)!important;
+  }
+  .btn-outline-primary{
+    color: rgba(66, 16, 143, 0.818)!important;
+    border-color: rgba(66, 16, 143, 0.818)!important;
+    background-color: white!important;
+  }
+  .shadow{
+    position: relative;
+   background-color: rgba(66, 16, 143, 0.618);
+  }
+  #special{
+    z-index: -1;
+    position: relative;
+  }
+  .thirdlayer{
+    z-index: 1111!important;
+    color: white;
+    position: absolute;
+    top:90px;
+    left:100px;
+  }
+  .thirdlayer1{
+    z-index: 111;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left:100px;
+  }
+  .zindexrow{
+    display: flex;
+    flex-direction: row;
+  }
+  .content{
+    margin-left: 10px;
+    font-size: small;
+  }
+  .smals{
+    width: 34px;
+    height:23px ;
+  }
+  
+
+@media screen and (min-width: 768px){
+  
+    .costam{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .dot{
+      position: relative;
+      left: 260px;
+      bottom: 40px;
+    }
+    .btn-primary{
+      background-color: rgba(66, 16, 143, 0.818)!important;
+      border-color: rgba(66, 16, 143, 0.818)!important;
+    }
+    .btn-outline-primary{
+      color: rgba(66, 16, 143, 0.818)!important;
+      border-color: rgba(66, 16, 143, 0.818)!important;
+      background-color: white!important;
+    }
+    .thirdlayer{
+      z-index: 1111!important;
+      color: white;
+      position: absolute;
+      top:140px;
+      left:100px;
+    }
+    .thirdlayer1{
+      z-index: 111;
+      color: white;
+      position: absolute;
+      top: 220px;
+      left:100px;
+    }
+    .content{
+      margin-left: 10px;
+      font-size: large;
+    }
+    .smals{
+      width: 44px;
+      height:33px ;
+    }
+}
+
+@media screen and (min-width: 992px){
+  
+    .costam{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center; 
+    }
+    .inputs{
+      width: 330px;
+      justify-content: left;
+      align-items: flex-end; 
+    }
+    .dot{
+      position: relative;
+      left: 190px;
+      bottom: 40px;
+    }
+    .btn-primary{
+      background-color: rgba(66, 16, 143, 0.818)!important;
+      border-color: rgba(66, 16, 143, 0.818)!important;
+    }
+    
+    .btn-outline-primary{
+      color: rgba(66, 16, 143, 0.818)!important;
+      border-color: rgba(66, 16, 143, 0.818)!important;
+      background-color: white!important;
+    }
+    .thirdlayer{
+      z-index: 1111!important;
+      color: white;
+      position: absolute;
+      top:260px;
+      left:150px;
+    }
+    .thirdlayer1{
+      z-index: 111;
+      color: white;
+      position: absolute;
+      top: 360px;
+      left:150px;
+    }
+    .content{
+      margin-left: 10px;
+      font-size: large;
+    }
+    .smals{
+      width: 44px;
+      height:33px ;
+    }
+}
+
+@media screen and (min-width: 1200px){
+  .container{
+    height: 90vh;
+  }
+ 
+.second{
+display:flex;
+flex-direction: row;
+margin-top: -48px;
+}
+.fiftyFifty{
+  width: 50%;
+  height: 677px;
+  display: flex;
+  flex-direction: column;
+}
+.shadow-sm{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+  background-color: rgba(46, 10, 100, 0.818);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+}
+.loginWindow{
+  width: 100%;
+  height: 80%;
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; 
+}
+.inputs{
+  width: 400px;
+  justify-content: left;
+  align-items: flex-end;
+}
+.dot{
+  position: relative;
+  left: 215px;
+  bottom: 40px;
+  display: flex;
+}
+.margin{
+  margin: 0 0 20px 0;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  gap: 20px;
+}
+.underlineLogin{
+  text-decoration: underline;
+  font-size: small;
+  display: flex;
+  justify-content: left;
+  margin-left: -35px;
+}
+.logo{
+  font-weight: 600;
+  font-size: 40;
+  font-style: oblique;
+  text-decoration: none;
+  color:rgba(46, 10, 100, 0.818); 
+  letter-spacing: 0.5px;
+}
+.btn-primary{
+  background-color: rgba(66, 16, 143, 0.818)!important;
+  border-color: rgba(66, 16, 143, 0.818)!important;
+}
+.btn-primary:hover{
+  background-color: white!important;
+  color: rgba(66, 16, 143, 0.818)!important;
+}
+.btn-outline-primary{
+  color: rgba(66, 16, 143, 0.818)!important;
+  border-color: rgba(66, 16, 143, 0.818)!important;
+}
+.btn-outline-primary:hover{
+  background-color: rgba(66, 16, 143, 0.818)!important;
+  color: white!important;
+}
+.thirdlayer{
+  z-index: 1111!important;
+  color: white;
+  position: absolute;
+  top:270px;
+  left:300px;
+}
+.thirdlayer1{
+  z-index: 111;
+  color: white;
+  position: absolute;
+  top:400px;
+  left:300px;
+}
+.content{
+  margin-left: 30px;
+}
+.tooltip{
+  background-color: black!important;
+  color: white!important;
+}
+.anim{
+  transition-duration: 1s!important;
+}
+.anim:hover{
+  transform:scale(1.10)!important;
+}
+.special{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+}
+@media screen and (min-width: 1400px){
+.container{
+  height: 100vh;
+}
+.second{
+  display:flex;
+  flex-direction: row;
+  margin-top: -48px;
+
+}
+
+.fiftyFifty{
+  width: 50%;
+  height: 100%;
+ 
+}
+.shadow-sm{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+  background-color: rgba(46, 10, 100, 0.818);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+  
+}
+.loginWindow{
+  width: 100%;
+  height: 527px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.inputs{
+  width: 400px;
+  justify-content: left;
+  align-items: flex-end;
+}
+.dot{
+  position: relative;
+  left: 215px;
+  bottom: 40px;
+}
+.margin{
+  margin: 0 0 20px 0;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  gap: 20px;
+}
+.underlineLogin{
+  text-decoration: underline;
+  font-size: small;
+  display: flex;
+  justify-content: left;
+  margin-left: -35px;
+}
+.btn-primary{
+  background-color: rgba(66, 16, 143, 0.818)!important;
+  border-color: rgba(66, 16, 143, 0.818)!important;
+}
+.btn-primary:hover{
+  background-color: white!important;
+  color: rgba(66, 16, 143, 0.818)!important;
+}
+.btn-outline-primary{
+  color: rgba(66, 16, 143, 0.818)!important;
+  border-color: rgba(66, 16, 143, 0.818)!important;
+}
+.btn-outline-primary:hover{
+  background-color: rgba(66, 16, 143, 0.818)!important;
+  color: white!important;
+}
+.thirdlayer{
+  z-index: 1111!important;
+  color: white;
+  position: absolute;
+  top:270px;
+  left:300px;
+}
+.thirdlayer1{
+  z-index: 111;
+  color: white;
+  position: absolute;
+  top:400px;
+  left:300px;
+}
+.content{
+  margin-left: 30px;
+}
+.tooltip{
+  background-color: black!important;
+  color: white!important;
+}
+.anim{
+  transition-duration: 1s!important;
+}
+.anim:hover{
+  transform:scale(1.10)!important;
+}
+.special{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+}
